@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Biswas 💀</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #111;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    .text {
+      font-size: 60px;
+      font-weight: bold;
+      color: white;
+      animation: roast 2s infinite;
+      text-shadow: 0 0 20px red;
+    }
+
+    @keyframes roast {
+      0% {
+        transform: scale(0.3) rotate(-10deg);
+        opacity: 0;
+      }
+
+      40% {
+        transform: scale(1.2) rotate(5deg);
+        opacity: 1;
+      }
+
+      60% {
+        transform: scale(1) rotate(-3deg);
+      }
+
+      100% {
+        transform: scale(1) rotate(0deg);
+      }
+    }
+
+    .emoji {
+      position: absolute;
+      font-size: 50px;
+      animation: fly 3s linear infinite;
+    }
+
+    @keyframes fly {
+      from {
+        transform: translateY(100vh) rotate(0deg);
+      }
+      to {
+        transform: translateY(-100vh) rotate(720deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="text">BISWAS IS A GAY LOSER 💀</div>
+
+  <div class="emoji" style="left:10%;">💀</div>
+  <div class="emoji" style="left:30%; animation-delay:1s;">🤡</div>
+  <div class="emoji" style="left:70%; animation-delay:0.5s;">💀</div>
+  <div class="emoji" style="left:90%; animation-delay:1.5s;">😂</div>
+
+</body>
+</html>
